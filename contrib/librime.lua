@@ -1,4 +1,4 @@
--- Last Change: 2024-12-15
+-- Last Change: 2025-06-18
 ---@meta rime
 
 --- 全局对象
@@ -12,6 +12,7 @@
 ---@field get_distribution_code_name fun(): string
 ---@field get_distribution_version fun(): string
 ---@field get_user_id fun(): string
+---@field get_time_ms fun(): number
 ---@field regex_match fun(input: string, pattern: string): boolean
 ---@field regex_search fun(input: string, pattern: string): string[] | nil
 ---@field regex_replace fun(input: string, pattern: string, fmt: string): string
@@ -29,7 +30,7 @@ function yield(cand) end
 --- 常量
 
 ---@enum ConfigType
-config_types = {
+local config_types = {
   kNull = "kNull",
   kScalar = "kScalar",
   kList = "kList",
@@ -37,7 +38,7 @@ config_types = {
 }
 
 ---@enum SegmentType
-segment_types = {
+local segment_types = {
   kVoid = "kVoid",
   kGuess = "kGuess",
   kSelected = "kSelected",
@@ -45,7 +46,7 @@ segment_types = {
 }
 
 ---@enum CandidateDynamicType
-candidate_dynamic_types = {
+local candidate_dynamic_types = {
   kSentence = "Sentence",
   kPhrase = "Phrase",
   kSimple = "Simple",
@@ -55,14 +56,14 @@ candidate_dynamic_types = {
 }
 
 ---@enum ProcessResult
-process_results = {
+local process_results = {
   kRejected = 0,
   kAccepted = 1,
   kNoop = 2,
 }
 
 ---@enum ModifierMask
-modifier_masks = {
+local modifier_masks = {
   kShift = 0x1,
   kLock = 0x2,
   kControl = 0x4,
@@ -122,6 +123,7 @@ function Set(values) end
 ---@field delete_input fun(self: self, len: integer): boolean
 ---@field clear fun(self: self)
 ---@field select fun(self: self, index: integer): boolean
+---@field highlight fun(self: self, index: integer): boolean
 ---@field confirm_current_selection fun(self: self): boolean
 ---@field delete_current_selection fun(self: self): boolean
 ---@field confirm_previous_selection fun(self: self): boolean
