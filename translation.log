@@ -1,0 +1,61 @@
+2025-07-01 11:22:55,812 - INFO - 正在安装OpenCC...
+2025-07-01 11:22:58,467 - INFO - OpenCC安装成功
+2025-07-01 11:22:58,467 - INFO - 开始翻译文档...
+2025-07-01 11:22:58,467 - INFO - 源目录: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki
+2025-07-01 11:22:58,467 - INFO - 目标目录: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified
+2025-07-01 11:22:58,476 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/DictionaryPack.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/DictionaryPack.md
+2025-07-01 11:22:58,481 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/UserData.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/UserData.md
+2025-07-01 11:22:58,535 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/RimeWithSchemata.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/RimeWithSchemata.md
+2025-07-01 11:22:58,538 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/Recipes.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/Recipes.md
+2025-07-01 11:22:58,559 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/UserGuide.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/UserGuide.md
+2025-07-01 11:22:58,562 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/SharedData.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/SharedData.md
+2025-07-01 11:22:58,563 - INFO - 文件 RimeWithTheCode.md 似乎不包含繁体中文，跳过
+2025-07-01 11:22:58,566 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/FAQ.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/FAQ.md
+2025-07-01 11:22:58,566 - INFO - 文件 Rime-in-Emacs.md 似乎不包含繁体中文，跳过
+2025-07-01 11:22:58,572 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/Introduction.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/Introduction.md
+2025-07-01 11:22:58,576 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/Home.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/Home.md
+2025-07-01 11:22:58,606 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/ComboPinyin.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/ComboPinyin.md
+2025-07-01 11:22:58,607 - INFO - 文件 RimeWithSquirrel.md 似乎不包含繁体中文，跳过
+2025-07-01 11:22:58,609 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/GettingStarted.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/GettingStarted.md
+2025-07-01 11:22:58,619 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/WeaselReleaseManual.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/WeaselReleaseManual.md
+2025-07-01 11:22:58,639 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/Configuration.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/Configuration.md
+2025-07-01 11:22:58,639 - INFO - 文件 SquirrelReleaseManual.md 似乎不包含繁体中文，跳过
+2025-07-01 11:22:58,665 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/CustomizationGuide.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/CustomizationGuide.md
+2025-07-01 11:22:58,675 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/RimeWithTheDesign.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/RimeWithTheDesign.md
+2025-07-01 11:22:58,685 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/UserQuotes.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/UserQuotes.md
+2025-07-01 11:22:58,686 - INFO - 文件 Downloads.md 似乎不包含繁体中文，跳过
+2025-07-01 11:22:58,686 - INFO - 文件 RimeWithWeasel.md 似乎不包含繁体中文，跳过
+2025-07-01 11:22:58,692 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/RimeWithIBus.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/RimeWithIBus.md
+2025-07-01 11:22:58,697 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/MoodCollection.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/MoodCollection.md
+2025-07-01 11:22:58,710 - INFO - 已翻译: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/SpellingAlgebra.md -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/SpellingAlgebra.md
+2025-07-01 11:22:58,710 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/config -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/config
+2025-07-01 11:22:58,711 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/HEAD -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/HEAD
+2025-07-01 11:22:58,711 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/description -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/description
+2025-07-01 11:22:58,712 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/index -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/index
+2025-07-01 11:22:58,712 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/packed-refs -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/packed-refs
+2025-07-01 11:22:58,713 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/objects/pack/pack-a926a243f140c07aa807bb9f9c41173eeca55b10.idx -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/objects/pack/pack-a926a243f140c07aa807bb9f9c41173eeca55b10.idx
+2025-07-01 11:22:58,714 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/objects/pack/pack-a926a243f140c07aa807bb9f9c41173eeca55b10.pack -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/objects/pack/pack-a926a243f140c07aa807bb9f9c41173eeca55b10.pack
+2025-07-01 11:22:58,715 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/objects/pack/pack-a926a243f140c07aa807bb9f9c41173eeca55b10.rev -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/objects/pack/pack-a926a243f140c07aa807bb9f9c41173eeca55b10.rev
+2025-07-01 11:22:58,715 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/info/exclude -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/info/exclude
+2025-07-01 11:22:58,716 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/logs/HEAD -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/logs/HEAD
+2025-07-01 11:22:58,717 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/logs/refs/heads/master -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/logs/refs/heads/master
+2025-07-01 11:22:58,717 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/logs/refs/remotes/origin/HEAD -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/logs/refs/remotes/origin/HEAD
+2025-07-01 11:22:58,718 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/hooks/commit-msg.sample -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/hooks/commit-msg.sample
+2025-07-01 11:22:58,718 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/hooks/pre-rebase.sample -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/hooks/pre-rebase.sample
+2025-07-01 11:22:58,719 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/hooks/sendemail-validate.sample -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/hooks/sendemail-validate.sample
+2025-07-01 11:22:58,719 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/hooks/pre-commit.sample -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/hooks/pre-commit.sample
+2025-07-01 11:22:58,719 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/hooks/applypatch-msg.sample -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/hooks/applypatch-msg.sample
+2025-07-01 11:22:58,720 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/hooks/fsmonitor-watchman.sample -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/hooks/fsmonitor-watchman.sample
+2025-07-01 11:22:58,721 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/hooks/pre-receive.sample -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/hooks/pre-receive.sample
+2025-07-01 11:22:58,721 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/hooks/prepare-commit-msg.sample -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/hooks/prepare-commit-msg.sample
+2025-07-01 11:22:58,722 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/hooks/post-update.sample -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/hooks/post-update.sample
+2025-07-01 11:22:58,722 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/hooks/pre-merge-commit.sample -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/hooks/pre-merge-commit.sample
+2025-07-01 11:22:58,723 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/hooks/pre-applypatch.sample -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/hooks/pre-applypatch.sample
+2025-07-01 11:22:58,723 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/hooks/pre-push.sample -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/hooks/pre-push.sample
+2025-07-01 11:22:58,723 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/hooks/update.sample -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/hooks/update.sample
+2025-07-01 11:22:58,723 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/hooks/push-to-checkout.sample -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/hooks/push-to-checkout.sample
+2025-07-01 11:22:58,724 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/refs/heads/master -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/refs/heads/master
+2025-07-01 11:22:58,725 - INFO - 已复制: /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki/.git/refs/remotes/origin/HEAD -> /Users/yangxinyi/opt/100_code/librime-lua/rime.wiki-simplified/.git/refs/remotes/origin/HEAD
+2025-07-01 11:22:58,725 - INFO - 翻译完成! 翻译了 19 个文件，跳过了 6 个文件
+2025-07-01 11:22:58,725 - INFO - 所有翻译任务完成!
+2025-07-01 11:25:05,020 - INFO - OpenCC初始化成功

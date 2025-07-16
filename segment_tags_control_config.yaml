@@ -1,0 +1,56 @@
+# segment_tags_control配置示例
+# 通过tags和status控制翻译行为
+
+# 方案1：基于Tags的控制
+tags_control_engine:
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - lua_segmentor@*segment_tags_control*preserve_segmentor     # 标记保护片段
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - punct_translator
+    - lua_translator@*segment_tags_control*preserve_translator   # 处理保护片段（优先级高）
+    - lua_translator@*segment_tags_control*integrated_script_translator  # 修改后的script_translator
+    - table_translator
+  filters:
+    - uniquifier
+
+# 方案2：基于Status的控制  
+status_control_engine:
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - lua_segmentor@*segment_tags_control*status_based_segmentor
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - punct_translator
+    - lua_translator@*segment_tags_control*preserve_translator
+    - lua_translator@*segment_tags_control*status_aware_translator
+    - table_translator
+  filters:
+    - uniquifier
+
+# 关键配置说明：
+# 1. preserve_segmentor必须在abc_segmentor之前，这样可以优先处理反引号
+# 2. preserve_translator必须在script_translator之前，确保保护片段被优先处理
+# 3. 翻译器的顺序很重要，优先级高的在前
+
+# 测试用例：
+# 输入：hello`world`test
+# 预期：
+#   - hello -> 正常翻译（如：你好）
+#   - `world` -> 原样输出：world（不翻译）
+#   - test -> 正常翻译（如：测试）
+#   - 最终候选词：你好world测试
+
+# 输入：`keep_this_exactly`translate_this
+# 预期：
+#   - `keep_this_exactly` -> 原样：keep_this_exactly
+#   - translate_this -> 正常翻译
